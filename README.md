@@ -1,3 +1,3 @@
 # CounterElement
 
-Live demo: https://j828rp.csb.app/
+Live demo: https://dreamy-raindrop-5ad29a.netlify.app/
