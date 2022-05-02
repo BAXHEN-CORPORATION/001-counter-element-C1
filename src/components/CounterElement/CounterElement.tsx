@@ -1,22 +1,22 @@
 import React from "react";
-import { Root, CounterWrapper, Title, Counter, Prefix, Sulfix } from "./styles";
+import { Root, CounterWrapper, Title, Counter, Prefix, Suffix } from "./styles";
 
 import { TSlideAnimations, getSlideAnimations } from "../../animations";
 
 export interface CounterElementProps {
   prefix?: string;
-  sulfix?: string;
+  suffix?: string;
   counterTo: number;
   title: string;
   animation?: TSlideAnimations;
 }
 
 const CounterElement: React.FC<CounterElementProps> = ({
-  sulfix,
+  suffix,
   prefix,
   title,
   counterTo,
-  animation
+  animation,
 }) => {
   const [counter, setCounter] = React.useState(0);
   const INTERVAL = 1000;
@@ -40,7 +40,7 @@ const CounterElement: React.FC<CounterElementProps> = ({
       <CounterWrapper>
         <Prefix>{prefix}</Prefix>
         <Counter>{counter}</Counter>
-        <Sulfix>{sulfix}</Sulfix>
+        <Suffix>{suffix}</Suffix>
       </CounterWrapper>
       <Title>{title}</Title>
     </Root>

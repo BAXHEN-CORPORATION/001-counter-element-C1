@@ -10,19 +10,20 @@ export default function App(): JSX.Element {
     <Container>
       <Section>
         <CounterElement
-          sulfix="M"
+          prefix="+"
+          suffix="M"
           counterTo={4}
-          title="4 million daily active users"
+          title="4 plus million daily active users"
           animation="right"
         />
         <CounterElement
-          sulfix="k"
+          suffix="k"
           counterTo={12}
           title="Over 12k open job positions"
           animation="up"
         />
         <CounterElement
-          sulfix="M"
+          suffix="M"
           counterTo={20}
           title="Over 20 million stories shared"
           animation="left"

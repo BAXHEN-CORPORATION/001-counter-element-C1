@@ -31,7 +31,7 @@ export const Prefix = styled.span`
   flex-grow: 1;
   text-align: right;
 `;
-export const Sulfix = styled.span`
+export const Suffix = styled.span`
   flex-grow: 1;
   text-align: left;
 `;
