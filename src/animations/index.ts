@@ -59,13 +59,13 @@ export const slideDown = keyframes`
 
 export const getSlideAnimations = (key?: TSlideAnimations) => {
   if (!key) {
-    return undefined;
+    return;
   }
   const slideAnimations = {
     up: slideUp,
     right: slideRight,
     left: slideLeft,
-    down: slideDown
+    down: slideDown,
   };
 
   return slideAnimations[key];

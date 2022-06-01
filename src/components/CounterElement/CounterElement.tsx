@@ -1,6 +1,5 @@
 import React from "react";
 import { Root, CounterWrapper, Title, Counter, Prefix, Suffix } from "./styles";
-
 import { TSlideAnimations, getSlideAnimations } from "../../animations";
 
 export interface CounterElementProps {
