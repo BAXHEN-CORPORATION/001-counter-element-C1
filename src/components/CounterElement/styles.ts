@@ -21,7 +21,7 @@ export const CounterWrapper = styled.div`
   }
 `;
 export const Counter = styled.div``;
-export const Title = styled.div`
+export const CounterTitle = styled.div`
   font-size: 15px;
   font-weight: 400;
   color: #696969;
