@@ -22,10 +22,10 @@ Before starting, make sure you've met the following requirements:
 To install the Material UI v5 Emotion Engine, follow these steps:
 
 ```
-git clone https://github.com/BAXHEN-CORPORATION/001-counter-element-C1.git
+git clone https://github.com/BAXHEN-CORPORATION/001-counter-element-C1.git counter-element
 .git
 
-cd ./material-ui-v5-react-template
+cd ./counter-element
 
 npm install
 
