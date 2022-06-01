@@ -8,8 +8,6 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/BAXHEN-CORPORATION/001-counter-element-C1?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/BAXHEN-CORPORATION/001-counter-element-C1?style=for-the-badge)
 
-<img src="https://camo.githubusercontent.com/306dedb9426f1d93a981d305a0a18164932ece8dca4d5fd820b1d3c36625b218/68747470733a2f2f6d75692e636f6d2f7374617469632f6c6f676f2e737667" alt="exemplo imagem">
-
 > Live demo => [Counter Element](https://dreamy-raindrop-5ad29a.netlify.app/)
 
 ## 💻 Prerequisites
